@@ -1,7 +1,7 @@
 dist: trusty
 
 before_script: npm install -g parcel-bundler
-script: parcel src/index.html
+script: parcel build src/index.html
 
 deploy:
   provider: pages
